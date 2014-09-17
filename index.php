@@ -1,4 +1,4 @@
-<! doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Samantha Nakis CSCI E-15 Class Projects</title>
@@ -21,7 +21,6 @@
 	border-top-style: none;
 	background-color: #BC8F8F;
 	width: 120px;
-	min-height: 100%;
 	float: left;
 	text-align: center;
 	font-size: 16px;
@@ -74,6 +73,7 @@ a:visited {
 <body>
 	<header id="headerbar">
 	<h1>Samantha Nakis CSCI E-15 Projects</h1>
+	<meta charset="UTF-8">
 	</header>
 
 	<aside id="sidebar">
