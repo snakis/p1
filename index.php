@@ -20,11 +20,11 @@
 	border: solid gray 5px;
 	border-top-style: none;
 	margin: 0;	
-	height: 100%;
 	background-color: #BC8F8F;
 	width: 110px;
 	float: left;
 	text-align: center;
+	height: 100%;
 }
 
 #aboutme {
