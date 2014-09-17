@@ -58,6 +58,11 @@ div {
 	color: #2F4F4F;
 }
 
+/* color of unvisited link */
+a:link {
+    color: #2F4F4F;
+}
+
 /*color of visited link */
 a:visited {
 	color: #800000;
@@ -92,7 +97,7 @@ a:visited {
 		<h3 class="question">Why am I taking this course?</h3><br>
 		<p class="answer">The software world is quicky moving toward web-based everything. Applications that were previously written in C++ and installed on your desktop are now running as a web-app in your browser. I am hoping to gain some practical skills that will enable me develop these applications on my own. I am also hoping to gain skills that allow me to more compitently work with web-based teams at work.</p><br>
 		<h3 class="question">What previous experience do I have with programming?</h3><br>
-		<p class="answer">My educational background is in computer engineering and most of my technical work as been in C/C++ and low-level programming.</p><br>
+		<p class="answer">My educational background is in computer engineering and most of my technical work has been in C/C++ and low-level programming.</p><br>
 		<h3 class="question">What platform am I using?</h3>
 		<p class="answer">I am working on a Windows 8 machine.</p><br>
 		</div>
