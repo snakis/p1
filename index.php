@@ -33,6 +33,7 @@
 	margin-left: 300px;
 	padding: 10px;
 	background-color: #FFE4E1;
+	border-radius: 25px;
 }
 
 #mypic {
