@@ -4,7 +4,7 @@
 	<title>Samantha Nakis CSCI E-15 Class Projects</title>
 </head>
 <style>
-#header {
+#headerbar {
     width: 100%;
     padding: 10px;
     border-top-style: solid;
@@ -53,7 +53,7 @@
 	font-style: italic;
 }
 
-div {
+aside, header, footer, article {
 	font-family: "Arial";
 	color: #2F4F4F;
 }
@@ -71,12 +71,11 @@ a:visited {
 </style>
 
 <body>
-	<div id="header">
+	<header id="headerbar">
 	<h1>Samantha Nakis CSCI E-15 Projects</h1>
-	</div>
+	</header>
 
-	<div id="bodyofsite">
-		<div id="sidebar">
+	<aside id="sidebar">
 		<br>
 		<b>Project Links</b>
 		<br><br>
@@ -86,22 +85,27 @@ a:visited {
 		<br><br>
 		<a class="projectlink" href="http://p4.samanthanakis.me/">Project 4</a>
 		<br><br>
-		</div>
+	</aside>
 
-		<div id="aboutme">
-		<br>
-		<img id= "mypic" src="images/sam_picture.jpg" alt="Samantha Nakis">
-		<br>
-		<h3 class="question">Who am I and what do I do?</h3><br>
-		<p class="answer">I am a manager at a software company for a group of software developers, all of which are new college graduates. Most of my day to day activities are project management and managing interactions with our customers. However, from time to time I also like to get my hands dirty with code.</p><br>
-		<h3 class="question">Why am I taking this course?</h3><br>
-		<p class="answer">The software world is quicky moving toward web-based everything. Applications that were previously written in C++ and installed on your desktop are now running as a web-app in your browser. I am hoping to gain some practical skills that will enable me develop these applications on my own. I am also hoping to gain skills that allow me to more compitently work with web-based teams at work.</p><br>
-		<h3 class="question">What previous experience do I have with programming?</h3><br>
-		<p class="answer">My educational background is in computer engineering and most of my technical work has been in C/C++ and low-level programming.</p><br>
-		<h3 class="question">What platform am I using?</h3>
-		<p class="answer">I am working on a Windows 8 machine.</p><br>
-		</div>
-	</div>
+	<section id="bodyofsite">
+		<article id="aboutme">
+			<br>
+			<img id= "mypic" src="images/sam_picture.jpg" alt="Samantha Nakis">
+			<br>
+			<h3 class="question">Who am I and what do I do?</h3><br>
+			<p class="answer">I am a manager at a software company for a group of software developers, all of which are new college graduates. Most of my day to day activities are project management and managing interactions with our customers. However, from time to time I also like to get my hands dirty with code.</p><br>
+			<h3 class="question">Why am I taking this course?</h3><br>
+			<p class="answer">The software world is quicky moving toward web-based everything. Applications that were previously written in C++ and installed on your desktop are now running as a web-app in your browser. I am hoping to gain some practical skills that will enable me develop these applications on my own. I am also hoping to gain skills that allow me to more compitently work with web-based teams at work.</p><br>
+			<h3 class="question">What previous experience do I have with programming?</h3><br>
+			<p class="answer">My educational background is in computer engineering and most of my technical work has been in C/C++ and low-level programming.</p><br>
+			<h3 class="question">What platform am I using?</h3>
+			<p class="answer">I am working on a Windows 8 machine.</p><br>
+		</article>
+	</section>
+
+	<footer>
+		Fall 2014 Harvard Extension
+	</footer>
 
 </body>
 </html>
