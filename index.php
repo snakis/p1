@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Samantha Nakis CSCI E-15 Class Projects</title>
 <style>
 #headerbar {
     width: 100%;
@@ -66,10 +70,6 @@ a:visited {
 }
 
 </style>
-
-<head>
-	<meta charset="UTF-8">
-	<title>Samantha Nakis CSCI E-15 Class Projects</title>
 </head>
 
 <body>
