@@ -19,11 +19,12 @@
 #sidebar {
 	border: solid gray 5px;
 	border-top-style: none;
-	margin: 0;	
 	background-color: #BC8F8F;
-	width: 110px;
+	width: 120px;
+	min-height: 100%;
 	float: left;
 	text-align: center;
+	font-size: 16px;
 	height: 100%;
 }
 
@@ -43,7 +44,7 @@
 #bodyofsite {
 	background-image: url("images/flower_image.jpg");
 	background-size: 100% 100%;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; 
 }
 
 .question {
