@@ -68,8 +68,8 @@ a:visited {
 </style>
 
 <head>
-	<title>Samantha Nakis CSCI E-15 Class Projects</title>
 	<meta charset="UTF-8">
+	<title>Samantha Nakis CSCI E-15 Class Projects</title>
 </head>
 
 <body>
