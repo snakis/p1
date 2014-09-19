@@ -25,7 +25,7 @@
 	float: left;
 	text-align: center;
 	font-size: 16px;
-	height: 100%;
+	max-height: inherit;
 }
 
 #aboutme {
@@ -50,8 +50,13 @@
 .question {
 	font-style: bold;
 }
+
 .answer {
 	font-style: italic;
+}
+
+.githublink {
+	font-size: 12px;
 }
 
 aside, header, footer, article {
@@ -81,11 +86,14 @@ a:visited {
 		<br>
 		<b>Project Links</b>
 		<br><br>
-		<a class="projectlink" href="http://p2.samanthanakis.me/">Project 2</a>
+		<a class="projectlink" href="http://p2.samanthanakis.me/">View Project 2</a><br>
+		<a class="githublink" href="https://github.com/snakis/p2">Project 2 Github</a>
 		<br><br>
-		<a class="projectlink" href="http://p3.samanthanakis.me/">Project 3</a>
+		<a class="projectlink" href="http://p3.samanthanakis.me/">View Project 3</a><br>
+		<a class="githublink" href="https://github.com/snakis/p3">Project 3 Github</a>
 		<br><br>
-		<a class="projectlink" href="http://p4.samanthanakis.me/">Project 4</a>
+		<a class="projectlink" href="http://p4.samanthanakis.me/">View Project 4</a><br>
+		<a class="githublink" href="https://github.com/snakis/p4">Project 4 Github</a>
 		<br><br>
 	</aside>
 
