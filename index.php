@@ -5,6 +5,13 @@
 	<meta charset="UTF-8">
 	<title>Samantha Nakis CSCI E-15 Class Projects</title>
 <style>
+
+#bodyofsite {
+	background-image: url("images/flower_image.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat; 
+}
+
 #headerbar {
     width: 100%;
     padding: 10px;
@@ -25,7 +32,8 @@
 	float: left;
 	text-align: center;
 	font-size: 16px;
-	max-height: inherit;
+	height: 100%;
+	position: absolute;
 }
 
 #aboutme {
@@ -35,16 +43,16 @@
 	padding: 10px;
 	background-color: #FFE4E1;
 	border-radius: 25px;
+	float: right;
+	height: 100%;
+}
+
+#footer {
+	clear: both;
 }
 
 #mypic {
 	border: double gray 5px;
-}
-
-#bodyofsite {
-	background-image: url("images/flower_image.jpg");
-	background-size: 100% 100%;
-	background-repeat: no-repeat; 
 }
 
 .question {
